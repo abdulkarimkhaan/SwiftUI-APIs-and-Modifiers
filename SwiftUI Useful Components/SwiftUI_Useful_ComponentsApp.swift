@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Useful_ComponentsApp: App {
     var body: some Scene {
         WindowGroup {
-            FloatingMenu()
+            GridLayout()
         }
     }
 }

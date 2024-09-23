@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847601F82C98CA0C008703C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847601F72C98CA0C008703C4 /* Extensions.swift */; };
+		84DBB08E2C98C8FF00671FD5 /* 2. GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBB08D2C98C8FF00671FD5 /* 2. GridLayout.swift */; };
 		84FB23B52C8F61B600F4C72C /* SwiftUI_Useful_ComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB23B42C8F61B600F4C72C /* SwiftUI_Useful_ComponentsApp.swift */; };
 		84FB23B92C8F61B800F4C72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FB23B82C8F61B800F4C72C /* Assets.xcassets */; };
 		84FB23BC2C8F61B800F4C72C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FB23BB2C8F61B800F4C72C /* Preview Assets.xcassets */; };
-		84FB23C42C8F654C00F4C72C /* FloatingMenu+GridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB23C32C8F654C00F4C72C /* FloatingMenu+GridItem.swift */; };
+		84FB23C42C8F654C00F4C72C /* 1. FloatingMenu+GridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB23C32C8F654C00F4C72C /* 1. FloatingMenu+GridItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		847601F72C98CA0C008703C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84DBB08D2C98C8FF00671FD5 /* 2. GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. GridLayout.swift"; sourceTree = "<group>"; };
 		84FB23B12C8F61B600F4C72C /* SwiftUI Useful Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Useful Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FB23B42C8F61B600F4C72C /* SwiftUI_Useful_ComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Useful_ComponentsApp.swift; sourceTree = "<group>"; };
 		84FB23B82C8F61B800F4C72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FB23BB2C8F61B800F4C72C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		84FB23C32C8F654C00F4C72C /* FloatingMenu+GridItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingMenu+GridItem.swift"; sourceTree = "<group>"; };
+		84FB23C32C8F654C00F4C72C /* 1. FloatingMenu+GridItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1. FloatingMenu+GridItem.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		84FB23B32C8F61B600F4C72C /* SwiftUI Useful Components */ = {
 			isa = PBXGroup;
 			children = (
-				84FB23C32C8F654C00F4C72C /* FloatingMenu+GridItem.swift */,
+				84DBB08D2C98C8FF00671FD5 /* 2. GridLayout.swift */,
+				84FB23C32C8F654C00F4C72C /* 1. FloatingMenu+GridItem.swift */,
 				84FB23B42C8F61B600F4C72C /* SwiftUI_Useful_ComponentsApp.swift */,
 				84FB23B82C8F61B800F4C72C /* Assets.xcassets */,
 				84FB23BA2C8F61B800F4C72C /* Preview Content */,
+				847601F72C98CA0C008703C4 /* Extensions.swift */,
 			);
 			path = "SwiftUI Useful Components";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FB23C42C8F654C00F4C72C /* FloatingMenu+GridItem.swift in Sources */,
+				84DBB08E2C98C8FF00671FD5 /* 2. GridLayout.swift in Sources */,
+				84FB23C42C8F654C00F4C72C /* 1. FloatingMenu+GridItem.swift in Sources */,
 				84FB23B52C8F61B600F4C72C /* SwiftUI_Useful_ComponentsApp.swift in Sources */,
+				847601F82C98CA0C008703C4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
