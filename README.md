@@ -5,5 +5,16 @@ Enhance your application and level up your SwiftUI skills with APIs &amp; Modifi
 
 Article Link: https://medium.com/p/353ca5ad8c98
 
-https://github.com/user-attachments/assets/d17c448f-bc6c-4a05-ac1b-75295f526c1a
+Video Link: https://www.youtube.com/watch?v=IcOZykUyPyo
+
+https://github.com/user-attachments/assets/53639f87-a0d1-4dac-ab23-1cfb1eaf8ec8
+
+
+## 2. Adaptive, Flexible and Fixed Grids - LazyVGrid, LazyHGrids
+
+Article Link:
+
+Video Link: 
+
+https://github.com/user-attachments/assets/bd718e29-c80f-4338-8d94-844a9818d7e1
 
