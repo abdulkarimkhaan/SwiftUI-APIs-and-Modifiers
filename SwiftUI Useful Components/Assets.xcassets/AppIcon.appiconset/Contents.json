@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "ic-swift-apis.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

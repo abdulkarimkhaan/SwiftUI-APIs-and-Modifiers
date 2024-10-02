@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//MARK: Color Extension
 extension Color {
     static func randomDarkColor() -> Color {
         // Generate random values for RGB, but keep them low to ensure the color is dark
@@ -16,3 +17,32 @@ extension Color {
         return Color(red: red, green: green, blue: blue)
     }
 }
+
+//MARK: View Extension
+extension View {
+    func navigate<NewView: View>(to view: NewView, when binding: Binding<Bool>) -> some View {
+        NavigationView {
+            ZStack {
+                self
+                    .navigationBarTitle("")
+                    .navigationBarHidden(true)
+
+                NavigationLink(
+                    destination: view
+                        .navigationBarTitle("")
+                        .navigationBarHidden(true),
+                    isActive: binding
+                ) {
+                    EmptyView()
+                }
+            }
+        }
+        .navigationViewStyle(.stack)
+    }
+    
+    func getScreenBounds() -> CGRect {
+        return UIScreen.main.bounds
+    }
+    
+}
+
