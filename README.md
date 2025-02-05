@@ -1,5 +1,5 @@
 # SwiftUI-APIs-and-Modifiers
-Enhance your application and level up your SwiftUI skills with APIs &amp; Modifiers Series.
+Enhance your application and level up your SwiftUI skills with APIs &amp; Modifiers Series. In this my focus is to share new APIs and modifiers.
 
 ## 1. Grid Layout and Floating Menu
 
