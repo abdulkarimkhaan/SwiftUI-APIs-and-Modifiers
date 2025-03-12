@@ -1,5 +1,5 @@
 # SwiftUI-APIs-and-Modifiers
-Enhance your application and level up your SwiftUI skills with APIs &amp; Modifiers Series.
+Enhance your application and level up your SwiftUI skills with APIs &amp; Modifiers Series. In this my focus is to share new APIs and modifiers.
 
 ## 1. Grid Layout and Floating Menu
 
@@ -17,4 +17,11 @@ Article Link: https://medium.com/@abdulkarimkhaan/swiftui-grid-items-flexible-ad
 Video Link: https://www.youtube.com/watch?v=-XXVM1g34vQ
 
 https://github.com/user-attachments/assets/bd718e29-c80f-4338-8d94-844a9818d7e1
+
+
+## 3. Draggable and Drop Destination
+
+Video Link: https://www.youtube.com/watch?v=O2MVEaahs7g
+
+https://github.com/user-attachments/assets/29084165-4554-4b7b-b244-e91a890476ef
 
