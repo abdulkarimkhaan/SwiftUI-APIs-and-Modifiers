@@ -25,3 +25,16 @@ Video Link: https://www.youtube.com/watch?v=O2MVEaahs7g
 
 https://github.com/user-attachments/assets/29084165-4554-4b7b-b244-e91a890476ef
 
+
+## 4. Charts
+
+Article: https://medium.com/@abdulkarimkhaan/visualizing-data-with-charts-in-swiftui-swiftui-api-4-fc4047fb9a0c
+
+Video Link: https://youtu.be/pxv5eBHCOg8
+
+https://github.com/user-attachments/assets/eeab4f70-e0a7-43bd-8590-9c5b91c641a8
+
+
+
+
+
