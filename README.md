@@ -35,6 +35,19 @@ Video Link: https://youtu.be/pxv5eBHCOg8
 https://github.com/user-attachments/assets/eeab4f70-e0a7-43bd-8590-9c5b91c641a8
 
 
+## 5. TipKit
+
+Article: https://medium.com/@abdulkarimkhaan/mastering-tipkit-in-swiftui-a-guide-to-add-walkthrough-journey-swiftui-api-5-b2fa4a1597b4
+
+Video Link: https://youtu.be/fnPv15Xy_0g
+
+https://github.com/user-attachments/assets/6cd437b4-bfb8-4777-801d-801125917a37
+
+
+
+
+
+
 
 
 
