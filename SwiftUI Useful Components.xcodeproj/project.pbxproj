@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84420DDB2D85FEB50075ECCD /* SpaceExplorationStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84420DD92D85FEB50075ECCD /* SpaceExplorationStruct.swift */; };
+		84420DDC2D85FEB50075ECCD /* PlanetDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84420DD62D85FEB50075ECCD /* PlanetDetailsView.swift */; };
+		84420DDD2D85FEB50075ECCD /* SpaceDashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84420DD82D85FEB50075ECCD /* SpaceDashboardModel.swift */; };
+		84420DDE2D85FEB50075ECCD /* PlanetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84420DD52D85FEB50075ECCD /* PlanetCardView.swift */; };
+		84420DDF2D85FEB50075ECCD /* SpaceDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84420DD72D85FEB50075ECCD /* SpaceDashboard.swift */; };
+		84420DE12D86017C0075ECCD /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84420DE02D8601750075ECCD /* Tips.swift */; };
+		84420DE32D8687110075ECCD /* CustomTipKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84420DE22D8687040075ECCD /* CustomTipKit.swift */; };
 		847601F82C98CA0C008703C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847601F72C98CA0C008703C4 /* Extensions.swift */; };
 		847602052CA2712E008703C4 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847602032CA2712E008703C4 /* TaskView.swift */; };
 		847602062CA2712E008703C4 /* DraggableAndDropDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847602042CA2712E008703C4 /* DraggableAndDropDestination.swift */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84420DD52D85FEB50075ECCD /* PlanetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCardView.swift; sourceTree = "<group>"; };
+		84420DD62D85FEB50075ECCD /* PlanetDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailsView.swift; sourceTree = "<group>"; };
+		84420DD72D85FEB50075ECCD /* SpaceDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceDashboard.swift; sourceTree = "<group>"; };
+		84420DD82D85FEB50075ECCD /* SpaceDashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceDashboardModel.swift; sourceTree = "<group>"; };
+		84420DD92D85FEB50075ECCD /* SpaceExplorationStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceExplorationStruct.swift; sourceTree = "<group>"; };
+		84420DE02D8601750075ECCD /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		84420DE22D8687040075ECCD /* CustomTipKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTipKit.swift; sourceTree = "<group>"; };
 		847601F72C98CA0C008703C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		847602032CA2712E008703C4 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		847602042CA2712E008703C4 /* DraggableAndDropDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableAndDropDestination.swift; sourceTree = "<group>"; };
@@ -42,6 +56,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84420DDA2D85FEB50075ECCD /* SpaceExplorationApp */ = {
+			isa = PBXGroup;
+			children = (
+				84420DD52D85FEB50075ECCD /* PlanetCardView.swift */,
+				84420DD62D85FEB50075ECCD /* PlanetDetailsView.swift */,
+				84420DD72D85FEB50075ECCD /* SpaceDashboard.swift */,
+				84420DD82D85FEB50075ECCD /* SpaceDashboardModel.swift */,
+				84420DD92D85FEB50075ECCD /* SpaceExplorationStruct.swift */,
+			);
+			path = SpaceExplorationApp;
+			sourceTree = "<group>";
+		};
 		847602022CA27119008703C4 /* 3. Draggable and DropDestination */ = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +75,16 @@
 				847602032CA2712E008703C4 /* TaskView.swift */,
 			);
 			path = "3. Draggable and DropDestination";
+			sourceTree = "<group>";
+		};
+		84BBFD7F2D85FD4000C5F422 /* 5. TipKit */ = {
+			isa = PBXGroup;
+			children = (
+				84420DE22D8687040075ECCD /* CustomTipKit.swift */,
+				84420DE02D8601750075ECCD /* Tips.swift */,
+				84420DDA2D85FEB50075ECCD /* SpaceExplorationApp */,
+			);
+			path = "5. TipKit";
 			sourceTree = "<group>";
 		};
 		84FB23A82C8F61B600F4C72C = {
@@ -70,6 +106,7 @@
 		84FB23B32C8F61B600F4C72C /* SwiftUI Useful Components */ = {
 			isa = PBXGroup;
 			children = (
+				84BBFD7F2D85FD4000C5F422 /* 5. TipKit */,
 				8476020C2CB47CC8008703C4 /* 4. Charts.swift */,
 				847602022CA27119008703C4 /* 3. Draggable and DropDestination */,
 				84DBB08D2C98C8FF00671FD5 /* 2. GridLayout.swift */,
@@ -167,6 +204,13 @@
 				84FB23B52C8F61B600F4C72C /* SwiftUI_Useful_ComponentsApp.swift in Sources */,
 				847602052CA2712E008703C4 /* TaskView.swift in Sources */,
 				847601F82C98CA0C008703C4 /* Extensions.swift in Sources */,
+				84420DDB2D85FEB50075ECCD /* SpaceExplorationStruct.swift in Sources */,
+				84420DDC2D85FEB50075ECCD /* PlanetDetailsView.swift in Sources */,
+				84420DDD2D85FEB50075ECCD /* SpaceDashboardModel.swift in Sources */,
+				84420DE12D86017C0075ECCD /* Tips.swift in Sources */,
+				84420DE32D8687110075ECCD /* CustomTipKit.swift in Sources */,
+				84420DDE2D85FEB50075ECCD /* PlanetCardView.swift in Sources */,
+				84420DDF2D85FEB50075ECCD /* SpaceDashboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +352,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +382,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

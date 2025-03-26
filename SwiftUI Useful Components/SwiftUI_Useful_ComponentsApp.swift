@@ -6,12 +6,25 @@
 //
 
 import SwiftUI
+import TipKit
 
 @main
 struct SwiftUI_Useful_ComponentsApp: App {
     var body: some Scene {
         WindowGroup {
-            Charts()
+            SpaceDashboard()
+                .task {
+                    // Configure and load your tips at app launch.
+                    do {
+                        try Tips.configure([
+                            .displayFrequency(.immediate)
+                        ])
+                    }
+                    catch {
+                        // Handle TipKit errors
+                        print("Error initializing TipKit \(error.localizedDescription)")
+                    }
+                }
         }
     }
 }
